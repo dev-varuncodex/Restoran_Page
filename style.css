@@ -1,0 +1,124 @@
+/* body {
+    background-color: bisque;
+}
+.heading {
+    color: tomato;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.p1{
+    color: navy;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table,th, td {
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid navy;
+    padding: 10px;
+
+}
+table {
+    width: 100%;
+}
+tr:hover {
+    background-color: navy;
+    color: red;
+}
+tr:nth-child(odd){
+    background-color: gray;             
+    color: black;
+} */
+/* hover will not apply for nth child.. Because if a property exist for the tag then hover will not work */
+/* button {
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    margin-left: 45%;
+}
+button:hover {
+    background-color: black;
+    color: rgb(16, 243, 16);
+} */
+
+body {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 900px;
+  max-width: 95%;
+}
+
+.card {
+  display: flex;
+  background-color: #000;
+}
+
+.image1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-height: 100%;
+}
+
+.image1 {
+  flex: 1;
+  min-width: 50%;
+  max-height: 100%;
+}
+
+.form-section {
+  flex: 1;
+  padding: 40px 150px 40px 50px;
+  color: white;
+}
+
+.form-section h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+  color: white;
+  outline: none;
+}
+
+input::placeholder, select {
+  color: #aaa;
+}
+
+button {
+  background-color: #00e676;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+button:hover {
+  background-color: #00c853;
+}
+option {
+  color: #000;
+}
+
+

@@ -9,24 +9,28 @@
   margin-right: 10px;
 }
 
-.navbar {
-  background-color: transparent;
-  transition: background-color 0.3s ease;
-}
-
-.navbar.scrolled {
-  background-color: #0f172b !important;
-}
-
 .nav-link,
 .navbar-toggler {
   color: white !important;
   font-weight: bold;
 }
 
-.nav-link:hover,
 .nav-link.active {
   color: orange !important;
+}
+.nav-link:hover {
+  color: orange !important;
+  animation: timein 1s;
+  animation-delay: 2s;
+}
+
+@keyframes timein {
+  from {
+    color: white;
+  }
+  to {
+    color: orange;
+  }
 }
 
 .dropdown-menu {
@@ -44,11 +48,11 @@
 
 @media (max-width: 991.98px) {
   .navbar {
-    background-color: #0f172b ;
+    background-color: #0f172b;
   }
 }
 
-.btn-orange,
+.button1,
 .button2 {
   background-color: orange;
   color: white;
@@ -58,7 +62,7 @@
   transition: background-color 0.3s ease;
 }
 
-.btn-orange:hover,
+.button1:hover,
 .button2:hover {
   background-color: rgb(240, 172, 47);
   cursor: pointer;

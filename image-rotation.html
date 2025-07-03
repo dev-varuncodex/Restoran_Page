@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+    <style>
+        img {
+            margin-top: 300px;
+            margin-left: 40%; 
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            animation-name: example;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes example {
+            from   {transform: rotate(0deg);}
+            to  {transform: rotate(360deg);}
+        }
+        button {
+            background-color: brown;
+            color: white;
+            transition: background-color 1s;
+
+        }
+        button:hover {
+            background-color: blue;
+        }
+    </style>
+
+</head>
+<body>
+    <img src="Ecart logo - Copy.png" alt="Image Error">
+    <button>Click Me</button>
+    
+</body>
+</html>
